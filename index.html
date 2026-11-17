@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Propuesta para Droguería Farmacenter Pharma Isis</title>
+<meta name="description" content="Una propuesta para ordenar los domicilios, los pedidos y la presencia en Google de su droguería.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0A332D">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Propuesta para Droguería Farmacenter Pharma Isis">
+<meta property="og:description" content="Que ningún domicilio se pierda. Mírela en un minuto.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Familjen+Grotesk:wght@600;700&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF3F1; --card:#FFFFFF; --ink:#10211E; --ink2:#52665F; --line:#D3DEDA;
+  --brand:#0B6B5C; --brand-soft:#DDEFEA; --deep:#0A332D; --wa:#0F7A40;
+  --signal:#F4B62B; --slip:#FFFDF6; --warn:#B3261E;
+  --font-display:'Familjen Grotesk','Segoe UI',system-ui,sans-serif;
+  --font-body:'Schibsted Grotesk','Segoe UI',system-ui,sans-serif;
+  --font-mono:'DM Mono',ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none !important}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.5}
+.wrap{max-width:560px;margin:0 auto;padding:0 18px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
+h1,h2,h3{font-family:var(--font-display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+p{margin:0}
+
+.hero{background:var(--deep);color:#fff;padding:calc(22px + env(safe-area-inset-top)) 0 48px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(244,182,43,.22),rgba(244,182,43,0) 68%);pointer-events:none}
+.top{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:#BFE0D8}
+.mark{width:34px;height:34px;border-radius:9px;background:var(--brand);display:grid;place-items:center;flex:none}
+.eyebrow{margin-top:34px;font-size:13px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--signal)}
+.hero h1{font-size:44px;line-height:1.02;margin-top:12px}
+.hero .sub{margin-top:16px;font-size:18px;color:#D4E7E2;max-width:34ch}
+.cta{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;border-radius:14px;background:var(--signal);color:#2B1F00;font-weight:600;font-size:17px;text-decoration:none;margin-top:24px}
+.slipwrap{margin-top:34px}
+.slipcap{font-size:13px;color:#9FC6BC;margin:0 0 10px}
+.slip{background:var(--slip);color:var(--ink);border-radius:6px 6px 0 0;transform:rotate(-1.6deg);box-shadow:0 22px 40px -18px rgba(0,0,0,.6)}
+.strip{display:flex;justify-content:space-between;gap:8px;background:var(--signal);color:#2B1F00;padding:9px 16px;border-radius:6px 6px 0 0;font-family:var(--font-mono);font-size:12.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+.slip dl{margin:0;padding:12px 16px 14px;font-family:var(--font-mono);font-size:13.5px;line-height:1.55}
+.slip .row{display:grid;grid-template-columns:92px 1fr;gap:8px;padding:2px 0}
+.slip dt{color:var(--ink2);font-weight:500}
+.slip dd{margin:0;white-space:pre-wrap}
+.edge{height:8px;transform:rotate(-1.6deg);background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='8'%3E%3Cpath d='M0 0H16L8 8Z' fill='%23FFFDF6'/%3E%3C/svg%3E") repeat-x}
+
+section{padding:44px 0}
+.kicker{font-size:13px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--brand)}
+h2{font-size:31px;line-height:1.08;margin-top:8px}
+.intro{margin-top:12px;color:var(--ink2);font-size:17px}
+
+.heard{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:10px}
+.heard li{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--signal);border-radius:12px;padding:14px 16px}
+.heard strong{display:block;font-family:var(--font-display);font-size:18px;margin-bottom:2px}
+.heard span{color:var(--ink2);font-size:15px}
+
+.path{margin:26px 0 0;padding:0;list-style:none;position:relative}
+.path::before{content:"";position:absolute;left:19px;top:20px;bottom:20px;width:2px;background:var(--line)}
+.path li{position:relative;padding:0 0 22px 56px}
+.path li:last-child{padding-bottom:0}
+.path .n{position:absolute;left:0;top:0;width:40px;height:40px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:18px}
+.path li:nth-child(3) .n{background:var(--wa)}
+.path h3{font-size:19px;margin-top:2px}
+.path p{color:var(--ink2);font-size:15px;margin-top:2px}
+
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:5px;margin-top:22px}
+.tab{min-height:52px;border:0;border-radius:12px;background:none;font-weight:600;font-size:14.5px;line-height:1.15;cursor:pointer;padding:6px 4px}
+.tab[aria-selected="true"]{background:var(--brand);color:#fff}
+.panel{margin-top:14px}
+.panel h3{font-size:25px;line-height:1.1}
+.box{border-radius:16px;padding:16px;margin-top:12px}
+.box h4{margin:0 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.box ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.box li{position:relative;padding-left:30px}
+.box li::before{content:"";position:absolute;left:0;top:2px;width:22px;height:22px;border-radius:50%;background-position:center;background-repeat:no-repeat;background-size:22px}
+.before{background:#fff;border:1px dashed #C9B8B5}
+.before h4{color:var(--warn)}
+.before li{color:var(--ink2)}
+.before li::before{background-color:#FBE7E4;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M7.5 7.5l7 7M14.5 7.5l-7 7' fill='none' stroke='%23B3261E' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E")}
+.after{background:var(--card);border:1px solid var(--line);box-shadow:0 14px 28px -24px rgba(16,33,30,.5)}
+.after h4{color:var(--brand)}
+.after li::before{background-color:var(--brand-soft);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M6 11.5l3.2 3.2L16 7.8' fill='none' stroke='%230B6B5C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.after b{font-weight:600}
+.result{margin-top:12px;border-radius:16px;background:var(--deep);color:#fff;padding:16px}
+.result span{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--signal);margin-bottom:4px}
+.result p{font-family:var(--font-display);font-size:19px;line-height:1.25}
+
+.sep{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:10px}
+.sep li{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.sep .nn{width:38px;height:38px;border-radius:50%;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:18px;flex:none}
+.sep strong{display:block;font-family:var(--font-display);font-size:18px}
+.sep span.d{font-size:14.5px;color:var(--ink2)}
+.sepnote{margin-top:14px;font-size:15.5px;background:#FFF6DC;border-radius:12px;padding:14px 16px;border-left:5px solid var(--signal)}
+
+.live{background:var(--deep);color:#fff}
+.live .kicker{color:var(--signal)}
+.live .intro{color:#C5DDD7}
+.btns{display:grid;gap:12px;margin-top:22px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;padding:10px 18px;border-radius:14px;text-decoration:none;font-weight:600;font-size:17px;background:var(--signal);color:#2B1F00}
+.btn small{display:block;font-weight:400;font-size:13px;opacity:.85}
+.liveNote{margin-top:14px;font-size:14px;color:#9FC6BC}
+
+.goals{margin:22px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.goals li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 14px}
+.goals b{display:block;font-family:var(--font-display);font-size:34px;line-height:1;color:var(--brand);letter-spacing:-.02em}
+.goals span{display:block;margin-top:8px;font-size:14.5px;color:var(--ink2)}
+.note{margin-top:14px;font-size:14px;color:var(--ink2);background:#FFF6DC;border-radius:12px;padding:12px 14px;border-left:5px solid var(--signal)}
+
+.care{margin:20px 0 0;padding:0;list-style:none;display:grid;gap:10px}
+.care li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15.5px}
+.care b{font-weight:600}
+
+.start{margin:22px 0 0;padding:0;list-style:none;display:grid;gap:10px}
+.start li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;grid-template-columns:auto 1fr;gap:4px 14px;align-items:center}
+.start .when{grid-row:span 2;min-width:78px;font-family:var(--font-mono);font-size:12.5px;font-weight:500;background:var(--brand-soft);color:var(--brand);padding:6px 10px;border-radius:8px;text-align:center}
+.start strong{font-family:var(--font-display);font-size:18px}
+.start span.d{color:var(--ink2);font-size:14.5px}
+
+footer{padding:30px 0 calc(40px + env(safe-area-inset-bottom));font-size:14px;color:var(--ink2);border-top:1px solid var(--line)}
+
+.js .rv{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.js .rv.in{opacity:1;transform:none}
+@media (max-width:370px){.hero h1{font-size:37px}.goals{grid-template-columns:1fr}.tab{font-size:13px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="top">
+      <span class="mark" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 22 22"><path d="M8.5 2h5v6.5H20v5h-6.5V20h-5v-6.5H2v-5h6.5z" fill="#fff"/></svg></span>
+      Droguería Farmacenter Pharma Isis
+    </div>
+    <p class="eyebrow">Propuesta para don Eliseo</p>
+    <h1>Que ningún domicilio se pierda.</h1>
+    <p class="sub">Pedidos ordenados, clientes bien atendidos y una vitrina en Google que trabaja por usted.</p>
+    <a class="cta" href="#servicios">Ver qué ganaría</a>
+    <div class="slipwrap">
+      <p class="slipcap">Así le llegaría cada pedido:</p>
+      <div class="slip">
+        <div class="strip"><span>Pedido a domicilio</span><span>Ejemplo</span></div>
+        <dl>
+          <div class="row"><dt>Nombre</dt><dd>Cliente de ejemplo</dd></div>
+          <div class="row"><dt>Dirección</dt><dd>Calle y número, apto</dd></div>
+          <div class="row"><dt>Barrio</dt><dd>Su barrio</dd></div>
+          <div class="row"><dt>Pedido</dt><dd>2 x Pañales
+1 x Crema dental</dd></div>
+          <div class="row"><dt>Pago</dt><dd>Efectivo, paga con $50.000</dd></div>
+        </dl>
+      </div>
+      <div class="edge" aria-hidden="true"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="rv">
+    <div class="wrap">
+      <p class="kicker">Lo que usted me contó</p>
+      <h2>Su negocio ya tiene clientes. Falta orden.</h2>
+      <ul class="heard">
+        <li><strong>Los pedidos a veces se pierden.</strong><span>Varias personas contestan y no siempre queda claro quién respondió qué.</span></li>
+        <li><strong>La gente llega por Google Maps y voz a voz.</strong><span>Lo que ven ahí es su vitrina, incluso antes de entrar.</span></li>
+        <li><strong>Su perfil de Google lleva tiempo sin movimiento.</strong><span>Pocas reseñas, la última de hace un año y sin respuestas.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="rv" style="padding-top:8px">
+    <div class="wrap">
+      <p class="kicker">Cómo se vería</p>
+      <h2>El camino de un pedido</h2>
+      <ol class="path">
+        <li><span class="n">1</span><h3>El cliente lo encuentra</h3><p>En Google, por recomendación o con la tarjeta de la bolsa.</p></li>
+        <li><span class="n">2</span><h3>Pide en un minuto</h3><p>Desde su celular, sin instalar nada.</p></li>
+        <li><span class="n">3</span><h3>Le llega a su WhatsApp, completo</h3><p>Nombre, dirección, barrio, pedido y forma de pago.</p></li>
+        <li><span class="n">4</span><h3>Usted atiende con orden</h3><p>Sabe qué pedido falta y quién lo tiene.</p></li>
+        <li><span class="n">5</span><h3>Entrega y reseña</h3><p>Con la bolsa va una tarjeta para dejar su opinión en Google.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="rv" id="servicios">
+    <div class="wrap">
+      <p class="kicker">Tres servicios</p>
+      <h2>Toque cada uno y vea el antes y el después</h2>
+      <div class="tabs" role="tablist" aria-label="Servicios">
+        <button class="tab" role="tab" id="t1" aria-selected="true" aria-controls="p1" type="button">WhatsApp ordenado</button>
+        <button class="tab" role="tab" id="t2" aria-selected="false" aria-controls="p2" tabindex="-1" type="button">Página de pedidos</button>
+        <button class="tab" role="tab" id="t3" aria-selected="false" aria-controls="p3" tabindex="-1" type="button">Google y reseñas</button>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
+        <h3>Su WhatsApp, como un negocio serio</h3>
+        <div class="box before"><h4>Hoy</h4><ul>
+          <li>Varias personas contestan y a veces nadie sabe quién respondió.</li>
+          <li>Los pedidos se mezclan con otros mensajes.</li>
+          <li>Fuera de horario, el cliente se queda esperando.</li></ul></div>
+        <div class="box after"><h4>Con este servicio</h4><ul>
+          <li><b>Se ve profesional:</b> con su nombre, dirección y horario a la vista.</li>
+          <li><b>Cada cliente recibe una bienvenida clara</b> y sabe qué datos mandar.</li>
+          <li><b>También responde fuera de horario,</b> para que nadie se sienta ignorado.</li>
+          <li><b>Usted ve de un vistazo</b> qué pedido falta por atender.</li>
+          <li><b>Atención ordenada por turnos,</b> con alguien responsable de cada mensaje.</li></ul></div>
+        <div class="result"><span>Lo que logra</span><p>Menos mensajes perdidos y clientes mejor atendidos.</p></div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+        <h3>Sus clientes piden solos, usted recibe todo claro</h3>
+        <div class="box before"><h4>Hoy</h4><ul>
+          <li>El pedido llega incompleto y toca preguntar dirección, barrio y pago.</li>
+          <li>Mucho ir y venir por chat para un solo domicilio.</li>
+          <li>El domiciliario sale sin saber con cuánto va a pagar el cliente.</li></ul></div>
+        <div class="box after"><h4>Con este servicio</h4><ul>
+          <li><b>El cliente arma su pedido en un minuto</b> desde el celular.</li>
+          <li><b>Usted lo recibe completo</b> y ordenado en su WhatsApp.</li>
+          <li><b>Sabe con cuánto paga,</b> para salir con el cambio listo.</li>
+          <li><b>Avisa si trae fórmula médica</b> y la manda en el mismo chat.</li>
+          <li><b>El cliente que repite no vuelve a escribir sus datos.</b></li>
+          <li><b>Un solo enlace</b> para la bolsa, la puerta y sus redes.</li></ul></div>
+        <div class="result"><span>Lo que logra</span><p>Menos tiempo por domicilio y menos errores.</p></div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+        <h3>Que lo vean activo cuando lo buscan</h3>
+        <div class="box before"><h4>Hoy</h4><ul>
+          <li>Pocas reseñas, la última de hace un año.</li>
+          <li>Ninguna tiene respuesta del negocio.</li>
+          <li>El WhatsApp para pedir no aparece en el perfil.</li></ul></div>
+        <div class="box after"><h4>Con este servicio</h4><ul>
+          <li><b>Perfil al día:</b> horario, fotos y forma de pedir.</li>
+          <li><b>Una tarjeta en cada bolsa</b> para que quien quedó contento deje su reseña.</li>
+          <li><b>Cada reseña recibe respuesta</b> a nombre de la droguería.</li>
+          <li><b>Más confianza</b> para quien pasa por el frente y lo busca en el celular.</li></ul></div>
+        <div class="result"><span>Lo que logra</span><p>Más gente que decide por usted antes de entrar. Meta del primer mes: de 4 a 20 reseñas.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rv" style="padding-top:8px">
+    <div class="wrap">
+      <p class="kicker">Usted decide</p>
+      <h2>Cada servicio va por separado</h2>
+      <ul class="sep">
+        <li><span class="nn">1</span><div><strong>WhatsApp ordenado</strong><span class="d">Tiene su propio valor.</span></div></li>
+        <li><span class="nn">2</span><div><strong>Página de pedidos</strong><span class="d">Tiene su propio valor.</span></div></li>
+        <li><span class="nn">3</span><div><strong>Google y reseñas</strong><span class="d">Tiene su propio valor.</span></div></li>
+      </ul>
+      <p class="sepnote">Puede empezar por uno, por dos o por los tres. Funcionan mejor juntos, pero ninguno depende del otro. Le explico el valor de cada uno en persona.</p>
+    </div>
+  </section>
+
+  <section class="live rv" id="probar">
+    <div class="wrap">
+      <p class="kicker">Hágalo usted mismo</p>
+      <h2>Pruebe la página de pedidos</h2>
+      <p class="intro">Haga un pedido de prueba. Escriba "PRUEBA" en el nombre y le llegará a su propio WhatsApp.</p>
+      <div class="btns">
+        <a class="btn" href="https://juanmaduc.github.io/pedidos-pharma-isis/" target="_blank" rel="noopener noreferrer"><span>Hacer un pedido de prueba<small>Se abre en su celular</small></span><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M5 11h12M12 5l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <p class="liveNote">Es un ejemplo con productos de muestra. Los productos reales los elegimos juntos.</p>
+    </div>
+  </section>
+
+  <section class="rv">
+    <div class="wrap">
+      <p class="kicker">Lo que puede lograr</p>
+      <h2>Metas del primer mes</h2>
+      <ul class="goals">
+        <li><b>0</b><span>mensajes sin responder por falta de orden</span></li>
+        <li><b>5 min</b><span>de respuesta por turno, como meta</span></li>
+        <li><b>20</b><span>reseñas en Google, desde 4 que hay hoy</span></li>
+        <li><b>1</b><span>enlace para recibir todos los pedidos</span></li>
+      </ul>
+      <p class="note">Son metas, no promesas. Cada semana contamos pedidos recibidos, mensajes sin responder y reseñas nuevas, y se las muestro con números reales.</p>
+    </div>
+  </section>
+
+  <section class="rv" style="padding-top:8px">
+    <div class="wrap">
+      <p class="kicker">Con tranquilidad</p>
+      <h2>Lo que cuidamos</h2>
+      <ul class="care">
+        <li><b>No leo los chats de sus clientes.</b> Hay datos personales y de salud, y son suyos.</li>
+        <li><b>Nada se publica sin su visto bueno:</b> textos, horarios y productos los confirmamos con usted.</li>
+        <li><b>No se promocionan medicamentos</b> ni se anuncian inyecciones a domicilio. Las reglas de las droguerías se respetan.</li>
+        <li><b>Las reseñas se piden, no se compran.</b> Solo opiniones reales de sus clientes.</li>
+        <li><b>No se borra nada</b> de su WhatsApp.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="rv" style="padding-top:8px">
+    <div class="wrap">
+      <p class="kicker">El siguiente paso</p>
+      <h2>Cómo empezamos</h2>
+      <ol class="start">
+        <li><span class="when">1</span><strong>Elegimos por dónde empezar</strong><span class="d">Usted decide qué servicio le interesa primero.</span></li>
+        <li><span class="when">2</span><strong>Una visita corta</strong><span class="d">Lo dejamos funcionando, con usted al lado.</span></li>
+        <li><span class="when">3</span><strong>Medimos juntos</strong><span class="d">Cada semana vemos qué cambió, con números.</span></li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Propuesta preparada para Droguería Farmacenter Pharma Isis por Juan Manuel Dueñas · Bogotá · noviembre de 2026</div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var els = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, {threshold:0.05});
+    Array.prototype.forEach.call(els, function(el){ io.observe(el); });
+  } else {
+    Array.prototype.forEach.call(els, function(el){ el.classList.add('in'); });
+  }
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  function sel(t, focus){
+    tabs.forEach(function(x){
+      var on = x === t;
+      x.setAttribute('aria-selected', on ? 'true' : 'false');
+      x.tabIndex = on ? 0 : -1;
+      document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
+    });
+    if (focus) t.focus();
+  }
+  tabs.forEach(function(t, i){
+    t.addEventListener('click', function(){ sel(t); });
+    t.addEventListener('keydown', function(ev){
+      if (ev.key === 'ArrowRight') sel(tabs[(i + 1) % tabs.length], true);
+      if (ev.key === 'ArrowLeft') sel(tabs[(i + tabs.length - 1) % tabs.length], true);
+    });
+  });
+})();
+</script>
+</body>
+</html>
